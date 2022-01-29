@@ -19,7 +19,7 @@ Maybe a data science dashboard from some dataset here: https://www.epa.gov/ghgre
 /* To implement (Feel free to add on):
 1) UI for landing page 
 2) react-router to route
-3) deploy to firebase for points (Tarun will take care)
+3) deploy to firebase for extra points (Tarun will take care)
 4) use gcp compute for some task (maybe)
 5) Use firestore if some database operations are needed
 6) Data visualization using some library 
