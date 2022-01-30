@@ -13,12 +13,8 @@
   }
 }
 
-.body {
-  background: linear-gradient(45deg, #CCE0CF, #7EA08E, #4D685A, transparent 25%);
-}
-
 .App-header {
-  /* background-color: #2F4C33; */
+  background-color: #2F4C33;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -26,14 +22,6 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
-}
-
-.button-div {
-  margin-top: 30px;
-}
-
-.button {
-  width: 200px;
 }
 
 .App-link {
