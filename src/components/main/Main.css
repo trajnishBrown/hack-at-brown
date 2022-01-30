@@ -3,9 +3,21 @@
   }
   
 .button {
-    width: 200px;
+    width: 500px;
+    height: 100px;
 }
 
 .body {
-    background: linear-gradient(45deg, #CCE0CF, #7EA08E, #4D685A, transparent 35%);
+    background: linear-gradient(45deg, #CCE0CF, #7EA08E, #4D685A, transparent 35%);}
+
+.image-div {
+    margin-top: 30px;
+    position: relative;
+    height: auto;
+    min-height: 100% !important;
+}
+
+.image {
+    height: 100%;
+    width: inherit;
 }

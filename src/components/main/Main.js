@@ -8,6 +8,7 @@ import CssBaseline from "@mui/material/CssBaseline";
 import Container from "@mui/material/Container";
 import Typography from "@mui/material/Typography";
 import * as React from "react";
+import Pollution from "../../img/pollution.jpeg";
 
 const Main = () => {
   return (
@@ -24,7 +25,7 @@ const Main = () => {
             Hack @ Brown
           </Typography>
           <Typography variant="h2" gutterBottom component="div">
-            The Greenhouse Webapp
+            Greenhouse Gas Emissions Dashboard
           </Typography>
           <Typography variant="h6" gutterBottom component="div">
             Greenhouse gases trap heat and make the planet warmer. Human
@@ -34,6 +35,9 @@ const Main = () => {
             the United States is from burning fossil fuels for electricity,
             heat, and transportation.
           </Typography>
+          <Typography variant="h6" gutterBottom component="div">
+            Find out more by exploring our dashboard.
+          </Typography>
           <div className="button-div">
             <Button
               variant="outlined"
@@ -41,9 +45,12 @@ const Main = () => {
               size="large"
               href="/explore"
             >
-              Explore More
+              Go To Dashboard
             </Button>
           </div>
+          {/* <div className="image-div"> */}
+          {/* <img className="image" src={Pollution} alt="pollution" /> */}
+          {/* </div> */}
         </Container>
       </React.Fragment>
     </div>
