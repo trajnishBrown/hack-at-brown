@@ -38,7 +38,7 @@ function App() {
     <div className="App">
       <React.Fragment>
         <CssBaseline />
-        <Container maxWidth="100%" sx={{ height: "100vh", bgcolor: "#CCE0CF" }}>
+        <Container className="body" maxWidth="100%" sx={{ height: "100vh" }}>
           <Typography
             variant="h1"
             component="div"
