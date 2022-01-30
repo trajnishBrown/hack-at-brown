@@ -4,6 +4,7 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
 import Main from "./components/main/Main";
 import Explore from "./components/explore/Explore";
+import Navbar from "./components/navbar/Navbar";
 
 /* Plan (Feel free to add on):
 Have a cool (greenish themed) landing page to be coded here in App.js
@@ -30,6 +31,7 @@ function App() {
   return (
     <Router>
       <div className="App">
+        {/* <Navbar /> */}
         <Routes>
           <Route path="/" element={<Main />}></Route>
           <Route path="/explore" element={<Explore />}></Route>

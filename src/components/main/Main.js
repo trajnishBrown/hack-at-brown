@@ -30,22 +30,41 @@ const Main = () => {
           <Typography variant="h6" gutterBottom component="div">
             Greenhouse gases trap heat and make the planet warmer. Human
             activities are responsible for almost all of the increase in
-            greenhouse gases in the atmosphere over the last 150 years.1 The
+            greenhouse gases in the atmosphere over the last 150 years. The
             largest source of greenhouse gas emissions from human activities in
             the United States is from burning fossil fuels for electricity,
-            heat, and transportation.
+            heat, and transportation. We carry out some exploratory data
+            analysis to find out the most polluting facility and states in the
+            USA in the year 2020. This React webpage (hosted on Firebase)
+            encapsulates our findings.
           </Typography>
           <Typography variant="h6" gutterBottom component="div">
-            Find out more by exploring our dashboard.
+            Learn more by taking a look at our Google Colab notebook or by going
+            directly to our plots!
+          </Typography>
+          <Typography variant="h6" gutterBottom component="div">
+            The dataset we used can be downloaded{" "}
+            <a href="https://www.epa.gov/system/files/other-files/2021-10/2020_data_summary_spreadsheets.zip">
+              here
+            </a>
           </Typography>
           <div className="button-div">
             <Button
               variant="outlined"
               className="button"
               size="large"
+              href="https://colab.research.google.com/drive/1C_GOKRRF3Obfd4C7GYFzlnZPbpi_U7yL?authuser=2#scrollTo=D_UhymcJtT1q"
+              target="_blank"
+            >
+              View Notebook
+            </Button>
+            <Button
+              variant="outlined"
+              className="button"
+              size="large"
               href="/explore"
             >
-              Go To Dashboard
+              Findings
             </Button>
           </div>
           {/* <div className="image-div"> */}
